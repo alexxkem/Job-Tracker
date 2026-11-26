@@ -79,9 +79,9 @@ services:
 In **PowerShell**, set your local environment variables (choose your own password):
 
 ```powershell
-$env:DB_URL = "jdbc:postgresql://localhost:5432/jobs"
-$env:DB_USERNAME = "jobtracker"
-$env:DB_PASSWORD = "replace-with-your-own-local-password"
+$env:DB_NAME = "jobs"
+$env:DB_USER = "jobtracker"
+$env:DB_PASSWORD = "your-local-password"
 ```
 
 Start the database from the backend directory:
