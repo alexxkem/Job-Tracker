@@ -1,0 +1,63 @@
+.navbar-inverse {
+  width: 100%;
+  gap: 25px;
+  min-height: 50px;
+  padding-top: 10px;
+  border-bottom: 2px solid black;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+@media (max-width: 600px){
+  .container-fluid {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.navbar-header{
+  margin-top: 5px;
+}
+
+#title {
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  background-color: white;
+}
+
+#title:hover{
+  color: grey;
+}
+
+.navbar-right{
+  align-self: flex-end;
+  margin: 0;
+}
+
+#addApplication{
+  margin-top: 5px;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#addApplication:hover{
+  border: 1px solid black;
+  color: grey;
+}

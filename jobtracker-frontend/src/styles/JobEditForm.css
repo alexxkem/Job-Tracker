@@ -1,0 +1,42 @@
+.editJobCard {
+    margin: 10px;
+}
+
+.editJobForm {
+    margin: 0 auto;
+    height: 470px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.editJobForm input {
+    margin: 15px;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.radioBtn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    width: 150px;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.submitBtn:hover {
+    transition-duration: 0.4s;
+    color: grey;
+    border: 1px solid black;
+}

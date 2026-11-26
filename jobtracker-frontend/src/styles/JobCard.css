@@ -1,0 +1,49 @@
+.job {
+    margin-top: 15px;
+}
+
+.jobCardBox {
+    margin: 0 auto;
+    height: auto;
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.jobInfo p {
+    margin: 15px
+}
+
+.editBtn {
+    margin: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.editBtn:hover {
+    transition-duration: 0.4s;
+    color: grey;
+    border: 1px solid black;
+}
+
+.deleteBtn {
+    margin: 10px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.deleteBtn:hover {
+    transition-duration: 0.4s;
+    border: 1px solid black;
+    color: grey;
+}
+
+.error-message {
+    color: red;
+}

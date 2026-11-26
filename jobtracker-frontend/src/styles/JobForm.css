@@ -1,0 +1,23 @@
+.addJob {
+    margin-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    height: 520px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.container label {
+    font-size: 20px;
+}
+
+.container input {
+    height: 25px;
+    width: 320px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
